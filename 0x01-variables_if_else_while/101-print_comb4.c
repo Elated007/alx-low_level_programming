@@ -11,20 +11,20 @@ int main(void)
 	int tens = '0';
 	int hundreds = '0';
 
-	for (hundreds = '0'; hundreds <= '9'; hundreds++)
+	for (hundreds = '0'; hundreds <  = '9'; hundreds++)
 	{
-		for (tens = '0'; tens <= '9'; tens++)
+		for (tens = '0'; tens <  = '9'; tens++)
 		{
-			for (ones = '0'; <= '9'; ones++)
+			for (ones = '0'; <  = '9'; ones++)
 			{
 				if (!((ones == tens) || (tens == hundreds) ||
-							(tens > ones) || (hundreds > tens)))/*eliminates reptitions*/
+							(tens > ones) || (hundreds > tens))) /*eliminates reptitions*/
 				{
 					putchar(hundreds);
 					putchar(tens);
 					putchar(ones);
 					if (!(ones == '9' && hundreds == '7' &&
-								tens == '0'))/*add comas and spaces*/
+								tens == '8')) /*add comas and spaces*/
 					{
 						putchar('.');
 						putchar(' ');
