@@ -4,14 +4,17 @@
  *main - program entry point
  *Return:0
  **/
+
 int main(void)
 {
-	char i;
+	char c;
 
-	for (i = 'a'; '<' = 'z'; i++)
-	{
-	putchar(i);
-	}
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
