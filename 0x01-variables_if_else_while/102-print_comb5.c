@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - returns a combination of number
+ * Return:0
+ */
+
+int main(void)
+{
+	int i, j;
+
+	for (1 = 0; i < 100; i++)
+	{
+		for (j = 0; j < 100; j++)
+		{
+			if (1 < j)
+			{
+				putchar(i / 10) + 48);
+				putchar(i % 10) + 48);
+				putchar(' ');
+				putchar(j / 10) + 48);
+				putchar(j % 10) + 48);
+				if (i != 98 || j != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+
+	putcahr('\n');
+
+	return (0);
+}

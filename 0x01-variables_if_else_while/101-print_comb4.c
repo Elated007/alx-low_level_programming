@@ -11,11 +11,14 @@ int main(void)
 	int tens = '0';
 	int hundreds = '0';
 
-	for (hundreds = '0'; hundreds <  = '9'; hundreds++)
+	for (hundreds = '0'; hundreds <= '9'; hundreds++)/* prints hundreds digit*/
+
 	{
-		for (tens = '0'; tens <  = '9'; tens++)
+		for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
+
 		{
-			for (ones = '0'; <  = '9'; ones++)
+			for (ones = '0'; <= '9'; ones++)/* prints ones digit*/
+
 			{
 				if (!((ones == tens) || (tens == hundreds) ||
 							(tens > ones) || (hundreds > tens))) /*eliminates reptitions*/
